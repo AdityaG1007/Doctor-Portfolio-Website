@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dr.appointment</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="med.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><i class="fa-solid fa-stethoscope"></i> Dr.Stokes</label>
+            <ul> 
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#apt">Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#feed">Feedback</a></li>
+            </ul>
+        </nav>
+            <div class="home">
+                <div class="bgclr">
+                <img src="dr.png" class="drimg">
+                <div class="bens">
+                <p class="ben"> Dr.Ben Stokes</p>
+                <span>Surgeon</span>
+                </div>
+                </div>
+            </div>
+            <div class="about" id="about">
+                <div class="abt">
+                    <p class="abtm">About Me</p>
+                    <div class="log">
+                    <i class="fa-brands fa-facebook fa-xl"><a href=""></a></i>
+                    <i class="fa-brands fa-twitter fa-xl"><a href=""></a></i>
+                    <i class="fa-brands fa-instagram fa-xl inst"><a href=""></a></i>
+                    <i class="fa-brands fa-linkedin fa-xl"><a href=""></a></i>
+                    <div>
+                    <hr class="vertical">
+                    <hr class="horizontal">
+                    <div class="abtmm">
+                    <p class="p1">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Odio sint debitis voluptate vitae sunt quia quasi nulla animi, laudantium dolor voluptates minima dignissimos ut eligendi quidem ducimus odit exercitationem eum quo autem quibusdam beatae.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dolore sunt atque laborum rerum error autem voluptate adipisci quia dolor.
+                    </p>
+                    <p class="p2">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Odio sint debitis voluptate vitae sunt quia quasi nulla animi, laudantium dolor voluptates minima dignissimos ut
+                        eligendi quidem ducimus odit exercitationem eum quo autem quibusdam beatae.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam dolore sunt atque laborum rerum error autem
+                        voluptate adipisci quia dolor.
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="chs">
+                <div class="chm">
+                <p class="p1">Why Choose Me</p>
+                </div>
+                <div class="btns">
+                    <button class="emer butt"><i class="fa-solid fa-hospital"></i>Emergency</button>
+                    <button class="supp butt"><i class="fa-solid fa-phone"></i> 24/7 Support</button>
+                    <button class="flx butt"><i class="fa-solid fa-calendar-days"></i>Flexible Schedule</button>
+                </div>
+                <div class="chmt">
+                    <ul>
+                        <li>Always available whenever in need and 5 mins to the hospital in the times of need.</li>
+                        <li>24/7 support for the best medical throughout the day and best in the bussiness.</li>
+                        <li>With our flexible schedule you can book your appointment throughout the day whenever needed. </li>
+                    </ul>
+                </div>
+                <div class="chmt1">
+                    Always available whenever in need and 5 mins to the hospital in the times of need. <br>
+                    24/7 support for the best medical throughout the day and best in the bussiness. <br>
+                    With our flexible schedule you can book your appointment throughout the day whenever needed. <br>
+                </div>
+            </div>
+            <div class="apt" id="apt">
+                <div class="fi">
+                <h1>Appointment</h1>
+                </div>
+                <div class="first">
+                <label>Name:</label>
+                <input type="text" class="">
+                <label>Gender:</label>
+                <select name="option" class="sel">
+                    <option value="" disabled selected>Choose</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Rather not Say</option>
+                </select>
+                <label >Age:</label> <br>
+                <input type="text" class="age">
+                <label>Description of your problem:</label>
+                <input type="text">
+                <label>Date & Time:</label>
+                <input type="datetime-local">
+                
+            </div>
+            <button>
+                Submit
+            </button>
+            </div>
+            <div class="contact" id="contact">
+                <div class="cnt">
+                <h1>Contact</h1>
+                <p>E-mail</p>
+                <span>ag809094xx@gmail.com</span>
+                <p>Phone Number</p>
+                <span>6388xxxx44</span>
+                <p>Visit</p>
+                <span>Max Hospital , Saket ,Delhi</span>
+                <h1>Timings</h1>
+                <span>10:00 AM - 3:00 PM</span>
+                </div>
+            </div>
+            <div class="feed" id="feed">
+                <div class="fed">
+                <p>Feedback</p>
+                <input type="text">
+                </div>
+            </div>
+            <div class="star-rating">
+                <input type="radio" name="stars" id="star-a" value="5" />
+                <label for="star-a"></label>
+            
+                <input type="radio" name="stars" id="star-b" value="4" />
+                <label for="star-b"></label>
+            
+                <input type="radio" name="stars" id="star-c" value="3" />
+                <label for="star-c"></label>
+            
+                <input type="radio" name="stars" id="star-d" value="2" />
+                <label for="star-d"></label>
+            
+                <input type="radio" name="stars" id="star-e" value="1" />
+                <label for="star-e"></label>
+            </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
